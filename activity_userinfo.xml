@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="410dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="76dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="240dp"
+        android:baselineAligned="false"
+        android:text="Name:"
+        android:textAlignment="gravity"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="308dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="228dp"
+        android:accessibilityLiveRegion="none"
+        android:hint="Enter your name"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="76dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="308dp"
+        android:baselineAligned="false"
+        android:text="Mail:"
+        android:textAlignment="gravity"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="306dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="300dp"
+        android:hint="Enter your mail"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="76dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="376dp"
+        android:baselineAligned="false"
+        android:text="Gender:"
+        android:textAlignment="gravity"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="117dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="508dp"
+        android:baselineAligned="false"
+        android:text="Occupation:"
+        android:textAlignment="gravity"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="86dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="648dp"
+        android:baselineAligned="false"
+        android:text="Phone:"
+        android:textAlignment="gravity"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="628dp"
+        android:hint="Enter your no'r"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="696dp"
+        android:backgroundTint="#0000FF"
+        android:text="Login"
+        android:textColorHint="#0000FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup1"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="168dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/BtMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/BtFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="280dp"
+        android:text="Student"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Company"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/check1"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="Instituion"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/check2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
